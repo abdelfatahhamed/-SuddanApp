@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ShadyNagy.ApiTemplate</id>
+    <title>ASP.NET Clean Architecture Endpoints Solution</title>
+    <version>1.6.3</version>
+    <authors>Shady Nagy</authors>
+    <description>
+      The API Solution Template popularized by Shady Nagy. Provides a great starting point for modern and/or DDD solutions built with .NET 6 and C# 10.
+      Features zero tight coupling to database or data access technology. This template based on my friend Template Ardalis.CleanArchitecture.
+    </description>
+    <language>en-US</language>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/ShadyNagy/ShadyNagy.ApiTemplate</projectUrl>
+    <releaseNotes>Authorized Endpoint added (JWT Token).</releaseNotes>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <tags>Web ASP.NET "Clean Architecture" ddd, EF, Endpoints, API</tags>
+    <icon>./content/icon.png</icon>
+    <readme>README.md</readme>
+  </metadata>
+  <files>
+    <file src=".\**" target="content" exclude="**\bin\**;**\obj\**;**\.git\**;**\.github\**;**\*.user;**\.vs\**;**\.vscode\**;**\.gitignore" />
+    <file src="README.md" />
+  </files>
+</package>
